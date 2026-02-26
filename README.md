@@ -1,10 +1,11 @@
 # multi-branch-demo
-multi-branch-demo
-# tdloc sửa file lần 1
-# dhthai sửa file lần 2
 
+multi-branch-demo
+
+# tdloc sửa file lần 1
+
+# dhthai sửa file lần 2
 
 # User2 test conflict
 
-# User1 test conflict 
-
+# User1 test conflict
