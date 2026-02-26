@@ -1,11 +1,14 @@
 name: hello world
+
 on:
-    push:
-        branches: [ main ]
+  push:
+    branches: [ main ]
+
 jobs:
   say-hello:
     runs-on: ubuntu-latest
     steps:
+      - name: Set TODAY env
+        run: echo "TODAY=$(date +%Y-%m-%d)" >> $GITHUB_ENV
       - name: Say Hello
-        run: echo "TODAY=$(date+%Y-%m-%d)" >> $GITHUB_ENV
         run: echo "Hello, World!"
