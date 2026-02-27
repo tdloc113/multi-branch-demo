@@ -1,0 +1,92 @@
+{
+  "posts": [
+    {
+      "id": "1",
+      "title": "Giới thiệu về Postman",
+      "body": "Postman là một công cụ mạnh mẽ giúp kiểm thử, phát triển và quản lý API. Bạn có thể gửi các request HTTP, kiểm tra response, tạo collection, chia sẻ và tự động hóa các quy trình kiểm thử API.",
+      "author": "Trần Duy Lộc",
+      "tags": [
+        "postman",
+        "api",
+        "testing",
+        "tool"
+      ],
+      "createdAt": "2024-01-01T08:00:00Z",
+      "userId": 1
+    },
+    {
+      "id": "2",
+      "title": "RESTful API là gì?",
+      "body": "RESTful API là một tiêu chuẩn thiết kế API phổ biến hiện nay, giúp giao tiếp giữa client và server dễ dàng, linh hoạt và mở rộng.",
+      "author": "Đặng Hùng Thái",
+      "tags": [
+        "api",
+        "restful",
+        "web"
+      ],
+      "createdAt": "2024-01-02T09:30:00Z",
+      "userId": 2
+    },
+    {
+      "id": "3",
+      "title": "Hướng dẫn sử dụng Postman cơ bản",
+      "body": "Bài viết này hướng dẫn các thao tác cơ bản với Postman như gửi GET, POST, PUT, DELETE request, tạo collection và quản lý environment.",
+      "author": "Phan Thành Tín",
+      "tags": [
+        "postman",
+        "api",
+        "tutorial"
+      ],
+      "createdAt": "2024-01-03T10:15:00Z",
+      "userId": 1
+    },
+    {
+      "id": "05a5",
+      "title": "Hướng dẫn gửi POST với Postman",
+      "body": "Bài viết này hướng dẫn cách gửi POST request để tạo mới dữ liệu.",
+      "author": "Nguyễn Văn D",
+      "tags": [
+        "postman",
+        "api",
+        "post"
+      ],
+      "createdAt": "2024-01-04T08:00:00Z",
+      "userId": 1
+    }
+  ],
+  "users": [
+    {
+      "id": "1",
+      "name": "Nguyễn Phùng Duy Khiêm",
+      "email": "npdkhiem@gmail.com"
+    },
+    {
+      "id": "2",
+      "name": "pttin",
+      "email": "pttin@gmai.com"
+    }
+  ],
+  "comments": [
+    {
+      "id": "1",
+      "postId": 1,
+      "userId": 2,
+      "content": "Bài viết về Postman rất hữu ích, giúp mình hiểu rõ cách test API!",
+      "createdAt": "2024-01-01T10:00:00Z"
+    },
+    {
+      "id": "2",
+      "postId": 2,
+      "userId": 1,
+      "content": "Cảm ơn bạn đã chia sẻ về RESTful API.",
+      "createdAt": "2024-01-02T11:00:00Z"
+    },
+    {
+      "id": "3",
+      "postId": 3,
+      "userId": 2,
+      "content": "Nhờ bài hướng dẫn này mình đã biết cách sử dụng Postman.",
+      "createdAt": "2024-01-03T12:00:00Z"
+    }
+  ]
+}
